@@ -12,9 +12,6 @@ This project involves building and evaluating a neural network model to classify
    - **Normalization:** The feature columns are normalized using `StandardScaler` to ensure the inputs to the model have similar scales.
    - **Splitting the Data:** The dataset is split into training and testing sets using an 80-20 split.
 
-   ![Histogram of Features](path_to_histogram_plot.png)
-   ![Correlation Matrix](path_to_correlation_matrix_plot.png)
-
 3. **Model Building:**
    - **Feature Columns:** Defined numeric feature columns for each input feature using `tf.feature_column.numeric_column`.
    - **DNN Classifier:** A Deep Neural Network (DNN) classifier is built using the TensorFlow Estimator API with two hidden layers (30 and 10 units respectively).
@@ -26,9 +23,6 @@ This project involves building and evaluating a neural network model to classify
 5. **Training and Evaluation:**
    - **Training with TensorBoard:** The model is trained for 5000 steps with TensorBoard logging enabled to visualize the training process.
    - **Evaluation:** The model’s performance is evaluated on the test set, and the test accuracy is reported.
-
-   ![Training and Validation Loss](path_to_training_validation_loss_plot.png)
-   ![Training and Validation Accuracy](path_to_training_validation_accuracy_plot.png)
 
 6. **Key Findings and Analysis:**
    - **Data Normalization:** Ensures that each input feature contributes equally during training, preventing larger-scale features from dominating the learning process.
@@ -49,17 +43,25 @@ This project involves building and evaluating a neural network model to classify
 
 ### Visual Examples:
 
-- **Feature Histograms:** 
-  ![Histogram of Features](path_to_histogram_plot.png)
+- **Feature Histograms:**
+  
+<img width="753" alt="image" src="https://github.com/user-attachments/assets/56b4f384-14e1-486f-bc60-37d305d54cc2">
+
   
 - **Correlation Matrix:** 
-  ![Correlation Matrix](path_to_correlation_matrix_plot.png)
+
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/496fc0a7-848f-4485-a632-9998b1701b84">
+
   
 - **Training and Validation Loss:** 
-  ![Training and Validation Loss](path_to_training_validation_loss_plot.png)
+
+<img width="726" alt="image" src="https://github.com/user-attachments/assets/d82bb8f5-67c9-4f06-b6f5-e0f12c35589c">
+
   
 - **Training and Validation Accuracy:** 
-  ![Training and Validation Accuracy](path_to_training_validation_accuracy_plot.png)
+
+<img width="722" alt="image" src="https://github.com/user-attachments/assets/45de2605-ec9a-43fd-9a87-d38497053fc5">
+
 
 ### Conclusion:
 
